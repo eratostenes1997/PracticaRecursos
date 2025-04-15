@@ -1,5 +1,5 @@
-     <resources>
-        <string name="app_name">DevicesResources</string>
+<resources>
+        <string name="app_name">PracticaRecursos</string>
         <string name="tvVersionAndroidLB">1. Version Android:</string>
         <string name="tvVersionAndroid"></string>
         <string name="tvLight">2. Flashlight:</string>
@@ -11,5 +11,6 @@
         <string name="etNameFile">Name of File</string>
         <string name="btnSaveFile">Save</string>
         <string name="tvState">5. Connection:</string>
-    </resources>
-
+        <string name="btnOpenCamera">6. Open Camera</string>
+        <string name="btnOpenBluetooth">7. Open Bluetooth</string>
+</resources>
