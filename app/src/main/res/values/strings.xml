@@ -1,13 +1,15 @@
-<resources>
-    <string name="app_name">PracticaRecursos</string>
-        <string name="tvTitulo">Varios Recursos</string>
-        <string name="tvVersionAndroid">Versión de Android</string>
-        <string name="tvBlueT">1. Bluetooth</string>
-        <string name="btnActivar">Activar</string>
-        <string name="btnDesactivar">Desactivar</string>
-        <string name="tvCaptura">2. Nivel de Batería</string>
-        <string name="tvNivel">Nivel de batería</string>
-        <string name="tvAlmacenamiento">3. Almacenar</string>
-        <string name="etNombreArchivo">Nombre del archivo</string>
-        <string name="btnGuardarArchivo">Guardar Archivo</string>
-</resources>
+     <resources>
+        <string name="app_name">DevicesResources</string>
+        <string name="tvVersionAndroidLB">1. Version Android:</string>
+        <string name="tvVersionAndroid"></string>
+        <string name="tvLight">2. Flashlight:</string>
+        <string name="btnOn">On</string>
+        <string name="btnOff">Off</string>
+        <string name="tvLevelBattery">3. Level of Battery</string>
+        <string name="tvLevelBattery_2"></string>
+        <string name="tvStorage">4. Storage</string>
+        <string name="etNameFile">Name of File</string>
+        <string name="btnSaveFile">Save</string>
+        <string name="tvState">5. Connection:</string>
+    </resources>
+

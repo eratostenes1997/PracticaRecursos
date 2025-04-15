@@ -1,80 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
+        <TextView
+            android:id="@+id/tvVersionAndroidLB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvVersionAndroidLB" />
 
-    <TextView
-        android:id="@+id/tvTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvTitulo"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tvVersionAndroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvVersionAndroid" />
 
-    <TextView
-        android:id="@+id/tvVersionAndroid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvVersionAndroid" />
+        <!-- Flashlight -->
+        <TextView
+            android:id="@+id/tvLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvLight"
+            android:layout_marginTop="12dp" />
 
-    <TextView
-        android:id="@+id/tvBlueT"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvBlueT" />
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnOff" />
+
+            <Button
+                android:id="@+id/btnOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnOn" />
+        </TableRow>
+
+
+        <TextView
+            android:id="@+id/tvLevelBatteryLB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvLevelBattery"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvLevelBattery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvLevelBattery_2" />
+
+        <ProgressBar
+            android:id="@+id/pbLevelBattery"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:layout_marginTop="4dp" />
+
+        <!-- Storage -->
+        <TextView
+            android:id="@+id/tvStorageLB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvStorage"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etNameFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etNameFile" />
 
         <Button
-            android:id="@+id/btnDesactivar"
-            android:layout_width="0dp"
+            android:id="@+id/btnSaveFile"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnDesactivar" />
+            android:text="@string/btnSaveFile"
+            android:layout_marginTop="4dp" />
 
-        <Button
-            android:id="@+id/btnActivar"
-            android:layout_width="0dp"
+        <!-- Connection -->
+        <TextView
+            android:id="@+id/tvConectionLB"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnActivar" />
-    </LinearLayout>
+            android:text="@string/tvState"
+            android:layout_marginTop="12dp" />
 
-    <TextView
-        android:id="@+id/tvCaptura"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvCaptura" />
+        <TextView
+            android:id="@+id/tvState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tvNivel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvNivel" />
-
-    <TextView
-        android:id="@+id/tvAlmacenamiento"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tvAlmacenamiento" />
-
-    <EditText
-        android:id="@+id/etNombreArchivo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/etNombreArchivo" />
-
-    <ImageButton
-        android:id="@+id/btnGuardarArchivo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@android:drawable/ic_menu_save" />
 </LinearLayout>
